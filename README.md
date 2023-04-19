@@ -19,13 +19,13 @@ the following command (replace `copilot-telemetry-collector` with the
 full name of the image):
 
 ```
-docker pull copilot-telemetry-collector
+docker pull ghcr.io/primary-idtech/copilot-telemetry-collector
 ```
 
 Run the container with the following command:
 
 ```
-docker run -it --rm -p 8080:8080 -v "$PWD/log:/output" copilot-telemetry-collector
+docker run -it --rm -p 8080:8080 -v "$PWD/log:/output" ghcr.io/primary-idtech/copilot-telemetry-collector
 ```
 
 This will start the container and map port 8080 of the container to 
