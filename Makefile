@@ -1,4 +1,4 @@
-IMAGE_NAME ?= $(shell basename $(shell pwd))
+IMAGE_NAME = ghcr.io/primary-idtech/copilot-telemetry-collector:main
 
 .PHONY: build
 build:
