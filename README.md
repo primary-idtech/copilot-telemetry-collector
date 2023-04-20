@@ -5,9 +5,6 @@ designed to capture telemetry requests from
 [Github Copilot Business](https://github.com/features/copilot) and store
 them in a log file.
 
-It allows users to monitor and analyze the telemetry data generated
-by Copilot Business, which can be useful for debugging and optimization.
-
 ## Usage
 
 To use the Copilot Telemetry Collector, follow these steps:
