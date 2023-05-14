@@ -39,6 +39,5 @@ This will start the container and map port 8080 of the container to
 port 8080 of your local machine. Generated log will be stored in the
 `./log` directory.
 
-Configure VSCode to use the proxy on `http://locahost:8080`.
-
-- [Visual Studio Code](https://docs.mend.io/en-US/bundle/wsk/page/how_to_set_up_proxy_settings_for_advise_for_visual_studio_code.html)
+Configure VSCode to use the proxy on `http://locahost:8080` following
+[this doc](https://docs.mend.io/en-US/bundle/wsk/page/how_to_set_up_proxy_settings_for_advise_for_visual_studio_code.html).
