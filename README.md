@@ -5,6 +5,8 @@ designed to capture telemetry requests from
 [Github Copilot Business](https://github.com/features/copilot) and store
 them in a log file.
 
+It requires VSCode with the Github Copilot extension installed on it.
+
 ## Usage
 
 To use the Copilot Telemetry Collector, follow these steps:
@@ -37,8 +39,6 @@ This will start the container and map port 8080 of the container to
 port 8080 of your local machine. Generated log will be stored in the
 `./log` directory.
 
-Configure your IDE to use the proxy on `http://locahost:8080`:
+Configure VSCode to use the proxy on `http://locahost:8080`.
 
 - [Visual Studio Code](https://docs.mend.io/en-US/bundle/wsk/page/how_to_set_up_proxy_settings_for_advise_for_visual_studio_code.html)
-- [Jetbrains IDEs](https://www.jetbrains.com/help/idea/settings-http-proxy.html)
-- [Visual Studio](https://learn.microsoft.com/en-us/answers/questions/1059735/is-it-possible-to-set-proxy-in-vs-2022)
